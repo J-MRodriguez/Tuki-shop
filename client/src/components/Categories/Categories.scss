@@ -1,13 +1,13 @@
 .categories {
 	display: flex;
-	height: 80vh;
 	gap: 10px;
+	height: 80vh;
 	margin: 10px;
 
 	.col {
-		flex: 1;
 		display: flex;
 		flex-direction: column;
+		flex: 1;
 		gap: 10px;
 	}
 
@@ -16,34 +16,34 @@
 	}
 
 	.row {
-		flex: 1;
 		display: flex;
+		flex: 1;
 		gap: 10px;
-		position: relative;
 		overflow: hidden;
+		position: relative;
 
 		button {
-			position: absolute;
-			min-width: 100px;
-			width: fit-content;
-			height: 50px;
-			padding: 10px;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			margin: auto;
-			cursor: pointer;
-			border: none;
 			background-color: white;
-			text-transform: uppercase;
+			border: none;
+			bottom: 0;
+			cursor: pointer;
 			font-weight: 500;
+			height: 50px;
+			left: 0;
+			margin: auto;
+			min-width: 100px;
+			padding: 10px;
+			position: absolute;
+			right: 0;
+			text-transform: uppercase;
+			top: 0;
+			width: fit-content;
 		}
 
 		img {
-			width: 100%;
 			height: 100%;
 			object-fit: cover;
+			width: 100%;
 		}
 	}
 }

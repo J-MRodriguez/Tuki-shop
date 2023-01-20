@@ -1,15 +1,15 @@
 .card {
-	width: 280px;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	margin-bottom: 50px;
+	width: 280px;
 
 	.image {
-		width: 100%;
 		height: 400px;
 		overflow: hidden;
 		position: relative;
+		width: 100%;
 
 		&:hover {
 			.secondImg {
@@ -18,10 +18,10 @@
 		}
 
 		img {
-			width: 100%;
 			height: 100%;
 			object-fit: cover;
 			position: absolute;
+			width: 100%;
 		}
 
 		.mainImg {
@@ -29,15 +29,15 @@
 		}
 
 		span {
-			position: absolute;
-			top: 5px;
-			left: 5px;
 			background-color: white;
 			color: teal;
-			padding: 3px 5px;
-			z-index: 3;
-			font-weight: 500;
 			font-size: 12px;
+			font-weight: 500;
+			left: 5px;
+			padding: 3px 5px;
+			position: absolute;
+			top: 5px;
+			z-index: 3;
 		}
 	}
 

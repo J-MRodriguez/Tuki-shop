@@ -2,8 +2,8 @@
 	margin: 100px 200px;
 
 	.top {
-		display: flex;
 		align-items: center;
+		display: flex;
 		justify-content: center;
 		margin-bottom: 50px;
 
@@ -13,14 +13,14 @@
 		}
 
 		p {
-			flex: 3;
 			color: gray;
+			flex: 3;
 		}
 	}
 
 	.bottom {
 		display: flex;
-		justify-content: center;
 		gap: 50px;
+		justify-content: center;
 	}
 }
